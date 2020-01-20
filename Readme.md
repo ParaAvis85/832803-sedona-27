@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Евгений Кошелев](https://up.htmlacademy.ru/htmlcss/27/user/832803).
-* Наставник: `Неизвестно`.
+- Студент: [Евгений Кошелев](https://up.htmlacademy.ru/htmlcss/27/user/832803).
+- Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761)
 
 ---
 
