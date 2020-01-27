@@ -12,11 +12,10 @@
         <a href="#">
           <img class="page-logo" src="img/logo.png" width="1200"  height="800" alt="Логотип главной «Cедона»">
         </a>
+        <!--сделал один список из двух-->
         <ul class="nav-list">
           <li class="nav-item"><a href="#">Информация</a></li>
           <li class="nav-item"><a href="media.html">Фото и видео</a></li>
-        </ul>
-        <ul>
           <li class="nav-item"><a href="map.html">Карта штата</a></li>
           <li class="nav-item"><a href="sedona-hotels.html">Гостиницы</a></li>
         </ul>
@@ -29,9 +28,7 @@
         <h1 class="visually-hidden">Главная Седона</h1>
 
         <img class="background-photo" src="img/" alt="задний фон главной страницы лес горы" width="1200" height="800">
-        <img class="welcome-photo" src="img/welcome.png" width="10" height="10" alt="приветственное главное название">
-        <img class="polygon-photo" src="img/polygon.jpg" width="10" height="10" alt="декоративное белое наложение на задний фон">
-        <img class="layer14-photo" src="img/" width="10" height="10" alt="прямоугольная заливка заднего фона">
+        <!--Удалил лишние картинки, после отправки на проверку вспомнил, что их добавляем через CSS-->
         <div class="title-wrapper">
           <h2 class="main-title">Седона — небольшой городок в Аризоне,
             заслуживающий большего!
@@ -93,8 +90,11 @@
       </div>
 
       <section class="feedback-section">
-        <h2 class="feedback-title">Заинтересовались?</h2>
-        <p class="feedback-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <!--Решил сделать такого типа заголовок для поисковика и скрин ридера так а "Заинтеросовались" потом выделить жирным в оформлении-->
+        <h2 class="visually-hidden">Блок поиска гостиниц и карта</h2>
+        <p class="feedback-title">Заинтересовались?</p>
+        <!-- тут я поставил br  как и было показанно на демке раз не нужен удаляю.-->
+        <p class="feedback-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <button class="popup-btn" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
         <map class="popup-map" name="карта"><img  title="Карта местороспаложения Седоны" src="img/" width="1200" height="800" alt="Карта навигации"></map>
       </section>
@@ -104,7 +104,8 @@
 
     <footer class="feedback-info">
       <p class="feedback-promo">
-        #visitSEDONA<br>
+        <!--здесь перенос стоки возможно этот тег лучше подойдет-->
+        <span>#visitSEDONA</span>
         <a class="feedback-phone" href="#" class="footer-phone">Тел: +7(495) 666-02-66</a>
       </p>
       <div  class="social-wrapper">
@@ -115,7 +116,8 @@
         </ul>
       </div>
       <p class="feedback-promo">
-        Website by<br>
+        <!--согласен одна строчка удалил br-->
+        Website by
         <a class="feedback-icon" href="https://htmlacademy.ru/intensive/htmlcss"><span>HTML Academy</span></a>
       </p>
       

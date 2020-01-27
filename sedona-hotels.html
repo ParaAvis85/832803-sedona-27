@@ -9,16 +9,17 @@
 
       <header class="page-header">
         <nav class="page-nav">
-          <a href="#">
+          <!--добавил ссылку на главную-->
+          <a href="index.html">
             <img class="page-logo" src="img/logo.png" width="1200"  height="800" alt="Логотип главной «Cедона»">
           </a>
+           <!--сделал один список из двух-->
           <ul class="nav-list">
             <li class="nav-item"><a href="#">Информация</a></li>
             <li class="nav-item"><a href="media.html">Фото и видео</a></li>
-          </ul>
-          <ul>
             <li class="nav-item"><a href="map.html">Карта штата</a></li>
-            <li class="nav-item"><a href="sedona-hotels.html">Гостиницы</a></li>
+            <!--Удалил ссылку на эту же страницу-->
+            <li class="nav-item"><a>Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -41,13 +42,15 @@
                   <li class="sort-panel-item"></li>
                   <li class="sort-panel-item"></li>
                 </ul>
+                <!--Добавил стрелочки-->
+                <a class="arrow arrow-up" href="#">по возрастанию</a>
+                <a class="arrow arrow-down" href="#">по убыванию</a>
             </div>
 
 
           <section class="rating">
-            <figure class="rating-image"> 
+            <!--удалил обертку картинки-->
               <a class="rating-image-link" href="#"><img class="rating-fullimage" src="img/" alt="Фото Amara Resort & Spa Гостиницы"></a>
-            </figure>
 
               <h3 class="rating-header">Amara Resort & Spa</h3>
               <p class="rating-price-text">Гостиница <span class="rating-price">от 4000 Р.</span></p>
@@ -64,10 +67,9 @@
           </section>
 
           <section class="rating">
-            <figure class="rating-image"> 
+            <!--удалил обертку картинки-->
               <a class="rating-image-link" href="#"><img class="rating-fullimage" src="img/" alt="Фото Desert Quail Inn Мотель"></a>
-            </figure>
-
+    
               <h3 class="rating-header">Desert Quail Inn</h3>
               <p class="rating-price-text">Мотель <span>от 3000 Р.</span></p>
               <a class="rating-link" href="#">Подробнее</a>
@@ -83,21 +85,20 @@
           </section>
 
           <section class="rating">
-            <figure class="rating-image"> 
+            <!--удалил обертку картинки-->
               <a class="rating-link" href="#"><img class="rating-fullimage" src="img/" alt="Фото Villas at Poco Diablo Апартаменты"></a>
-            </figure>
-
+          
               <h3 class="rating rating-header">Villas at Poco Diablo</h3>
               <p class="rating-price-text">Апартаменты <span>от 2000 Р.</span></p>
               <a class="rating-link" href="#">Подробнее</a>
               <button class="rating-button" type="button">Забронировать</button> 
               <p class="rating-text">Рейтинг:<span>9.2</span></p>
               <ul class="rating-list">
-                <li class="rating-star"><input type="radio"></li>
-                <li class="rating-star"><input type="radio"></li>
-                <li class="rating-star"><input type="radio"></li>
-                <li class="rating-star"><input type="radio"></li>
-                <li class="rating-star"><input type="radio"></li>
+                <li class="rating-star"><span>1</span></li>
+                <li class="rating-star"><span>2</span></li>
+                <li class="rating-star"><span>3</span></li>
+                <li class="rating-star"><span>4</span></li>
+                <li class="rating-star"><span>5</span></li>
               </ul>
           </section>
 
@@ -106,7 +107,7 @@
 
         <footer class="feedback-info">
           <p class="feedback-promo">
-            #visitSEDONA<br>
+            <span>#visitSEDONA</span>
             <a class="feedback-phone" href="#" class="footer-phone">Тел: +7(495) 666-02-66</a>
           </p>
           <div  class="social-wrapper">
@@ -117,7 +118,7 @@
             </ul>
           </div>
           <p class="feedback-promo">
-            Website by<br>
+            Website by
             <a class="feedback-icon" href="https://htmlacademy.ru/intensive/htmlcss"><span>HTML Academy</span></a>
           </p>
           
