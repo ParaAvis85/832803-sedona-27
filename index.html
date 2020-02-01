@@ -98,7 +98,7 @@
         <p class="feedback-title">Заинтересовались?</p>
         <!-- тут я поставил br  как и было показанно на демке раз не нужен удаляю.-->
         <p class="feedback-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <button class="popup-btn" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+        <button class="popup-btn" type="button">Поиск гостиницы в седоне</button>
         <a class="popup-map"  href="#"><img  title="Карта местороспаложения Седоны" src="img/src/map.png" width="1200" height="593" alt="102 Roadrunner Dr, Sedona, AZ 86336, США"></a>
       </section>
 
@@ -109,7 +109,7 @@
       <p class="feedback-promo">
         <!--здесь перенос стоки возможно этот тег лучше подойдет-->
         <span>#visitSEDONA</span>
-        <a class="feedback-phone" href="#">Тел: +7(495) 666-02-66</a>
+        <a class="feedback-phone" href="tel:+7(495)666-02-66">Тел: +7(495) 666-02-66</a>
       </p>
       <div  class="social-wrapper">
         <ul class="social-list">
@@ -125,5 +125,34 @@
       </p>
       
     </footer>
+
+
+    <div class="modal-content modal-block">
+      <form class="modal-form popup"  action="https://echo.htmlacademy.ru" method="POST">
+        <p class="popup-calendar">
+          <label for="arrival-date">Дата заезда:</label>
+          <input class="input-date" id="arrival-date" type="date" name="arrival date" required>
+          <button class="btn calendar-btn"></button>
+        </p>
+        <p class="popup-calendar"> 
+          <label for="departure-date">Дата выезда:</label>
+          <input  class="input-date" id="departure-date" type="date" name="departure date">
+          <button class="btn calendar-btn"></button>
+        </p>
+        <p class="popup-area">
+          <label for="number-adult" aria-label="поле ввода взрослые">Взрослые:</label>
+          <input class="input-field" id="number-adult" type="number" name="adult" value="2" min="1" max="10" step="1">
+           <button class="btn btn-minus" type="button" aria-label="Уменьшить в поле взрослые">-</button>
+           <button class="btn btn-plus" type="button" aria-label="Увеличить в поле взрослые">+</button>
+        </p>
+        <p class="popup-area">
+          <label for="number-child" aria-label="поле ввода дети">Дети:</label>
+          <input class="input-field" id="number-child" type="number" name="child" value="0" min="0" max="10" step="1">
+           <button class="btn btn-minus" type="button" aria-label="Уменьшить в поле дети">-</button>
+           <button class="btn btn-plus" type="button" aria-label="Увеличить в поле дети">+</button>
+        </p>
+        <a class="btn btn-search" href="#">Найти</a>
+      </form>
+    </div>
   </body>
 </html>
