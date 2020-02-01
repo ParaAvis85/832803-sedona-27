@@ -32,50 +32,53 @@
          <!--Удалил фоновое изображение-->
           <h2 class="form-header">Фильтр товаров</h2>
          <form action="https://echo.htmlacademy.ru" method="post">
-          <fieldset>
-            <legend>Инфраструктура:</legend>
-              <ul>
-                <li>
-                  <label for="pool">Бассейн</label>
+          <fieldset class="checkbox-wrapper">
+            <legend class="checkbox-header">Инфраструктура:</legend>
+              <ul class="checbox-list">
+                <li class="checkbox-item">
+                  <label class="checkbox-label" for="pool">Бассейн</label>
                   <input class="field checbox-field" type="checkbox" id="pool" name="pool" checked>
                </li>
-               <li>
-                  <label for="parking">Парковка</label>
+               <li class="checkbox-item">
+                  <label class="checkbox-label" for="parking">Парковка</label>
                   <input class="field checbox-field" type="checkbox" id="parking" name="parking">
                </li>
-               <li>
-                 <label for="wi-fi">WI-FI</label>
+               <li class="checkbox-item">
+                 <label class="checkbox-label" for="wi-fi">WI-FI</label>
                  <input class="field checbox-field" type="checkbox" id="wi-fi" name="wi-fi">
                </li>
               </ul>
           </fieldset>
-          <fieldset>
-            <legend>Типа жилья:</legend>
-              <ul>
-                <li>
-                  <label for="hotel">Гостиница</label>
-                  <input class="field hotel-field" type="checkbox" id="hotel" name="hotel" checked>
+
+          <fieldset class="checkbox-wrapper">
+            <legend class="checkbox-header">Типа жилья:</legend>
+              <ul class="checbox-list">
+                <li class="checkbox-item">
+                  <label class="checkbox-label" for="hotel">Гостиница</label>
+                  <input class="field checbox-field" type="checkbox" id="hotel" name="hotel" checked>
                 </li>
-                <li>
-                  <label for="motel">Мотель</label>
-                  <input class="field motel-field" type="checkbox" id="motel" name="motel" checked>
+                <li class="checkbox-item">
+                  <label class="checkbox-label" for="motel">Мотель</label>
+                  <input class="field checbox-field" type="checkbox" id="motel" name="motel" checked>
                 </li>
-                <li>
-                  <label for="apartment">Апартаменты</label>
-                  <input class="field apartment-field" type="checkbox" id="apartment" name="apartment" checked>
+                <li class="checkbox-item">
+                  <label class="checkbox-label" for="apartment">Апартаменты</label>
+                  <input class="field checbox-field" type="checkbox" id="apartment" name="apartment" checked>
                 </li>
               </ul>
           </fieldset>
-          <fieldset>
-            <legend>Стоимость в сутки (Р):</legend>
-            <label>От</label>
-            <input type="number">
-            <label>До</label>
-            <input type="number">
-            
+
+          <fieldset class="checkbox-wrapper">
+             <legend class="checkbox-header">Стоимость в сутки (Р):</legend>
+              <p class="checkbox-p">
+                <label class="checkbox-label" for="min-price">От</label>
+                <input class="field checbox-field" type="number" id="min-price" name="min-price" value="0">
+                <label class="checkbox-label" for="max-price">До</label>
+                <input class="field checbox-field" type="number" id="max-price" name="max-price" value="3000">
+              </p>
           </fieldset>
 
-          <button type="submit">Показать</button>
+          <button class="btn" type="submit">Показать</button>
          </form>
         </section>
 
