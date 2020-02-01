@@ -36,39 +36,43 @@
             <legend>Инфраструктура:</legend>
               <ul>
                 <li>
-                  <label>Бассейн</label>
-                  <input type="checkbox" checked>
+                  <label for="pool">Бассейн</label>
+                  <input class="field checbox-field" type="checkbox" id="pool" name="pool" checked>
                </li>
                <li>
-                  <label>Парковка</label>
-                  <input type="checkbox">
+                  <label for="parking">Парковка</label>
+                  <input class="field checbox-field" type="checkbox" id="parking" name="parking">
                </li>
                <li>
-                 <label>WI-FI</label>
-                 <input type="checkbox">
+                 <label for="wi-fi">WI-FI</label>
+                 <input class="field checbox-field" type="checkbox" id="wi-fi" name="wi-fi">
                </li>
-              <ul>
+              </ul>
           </fieldset>
           <fieldset>
             <legend>Типа жилья:</legend>
               <ul>
                 <li>
-                  <label>Гостиница</label>
-                  <input type="checkbox" checked>
+                  <label for="hotel">Гостиница</label>
+                  <input class="field hotel-field" type="checkbox" id="hotel" name="hotel" checked>
                 </li>
                 <li>
-                  <label>Мотель</label>
-                  <input type="checkbox" checked>
+                  <label for="motel">Мотель</label>
+                  <input class="field motel-field" type="checkbox" id="motel" name="motel" checked>
                 </li>
                 <li>
-                  <label>Апартаменты</label>
-                  <input type="checkbox" checked>
+                  <label for="apartment">Апартаменты</label>
+                  <input class="field apartment-field" type="checkbox" id="apartment" name="apartment" checked>
                 </li>
               </ul>
           </fieldset>
           <fieldset>
-            <input>
-            <input>
+            <legend>Стоимость в сутки (Р):</legend>
+            <label>От</label>
+            <input type="number">
+            <label>До</label>
+            <input type="number">
+            
           </fieldset>
 
           <button type="submit">Показать</button>
