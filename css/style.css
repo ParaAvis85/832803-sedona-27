@@ -10,18 +10,250 @@
     font-style: normal;
     font-weight: bold;
     src: url(../fonts/ptsans/PTS75F.ttf);
-    }
+}
+
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: normal;
     src: url(../fonts/web/ptsans.woff) format("woff"),
          url(../fonts/web/ptsans.woff2) format("woff2");
-        }
+}
+
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: bold;
     src: url(../fonts/web/ptsansbold.woff) format("woff"),
          url(../fonts/web/ptsansbold.woff2) format("woff2");
-            }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: PT Sans, Arial, sans-serif;
+    background-color:f2f2f2;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.nav-list {
+    list-style: none;
+    
+}
+
+.nav-list  a {
+    color: #000000;
+    font-size:  14px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: PT Sans, Arial, serif;
+    text-transform: uppercase;
+}
+
+.nav-list a:hover {
+    color: #81b3d2;
+}
+
+.nav-list a:active {
+    color: #cacaca;
+}
+
+.nav-list a:link {
+    color:#766357;
+}
+
+.main-wrapper {   
+    background-image: url("../img/main-background-photo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-width: 1200px;
+    min-height: 773px;
+}
+
+
+
+.main-title {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.main-subtitle {
+    color:#000000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feedback-title {
+    color:#000000;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.feedback-text {
+    color:#000000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.feedback-section {
+    background-color: #ffffff;
+}
+
+.popup-btn {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: #766357;
+}
+
+.popup-btn:hover {
+    background-color: #604e43;
+}
+
+.popup-btn:active {
+    background-color: #503e33;
+    color: #928a85;
+}
+
+.modal-content {
+    background-color: #ffffff;
+
+}
+
+.input-date::-webkit-input-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 26;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+input[type="number"] {
+    color: #000000;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.popup-calendar label,
+.popup-area label  {
+    color:#000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase; 
+}
+
+.input-date,
+.input-field,
+.btn {
+    background-color: #f2f2f2;
+}
+
+.input-date:hover,
+.input-field:hover {
+    background-color: #ebebeb;
+}
+
+.input-date:focus,
+.input-field:focus {
+    background-color: #ffffff;
+}
+
+.calendar-btn {
+    background-image: url(../img/src/calendar.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 21px;
+    min-width: 21px;
+    min-height: 22px;
+    
+}
+
+.btn{
+    background-color: #a9a9a9;
+}
+
+.calendar-btn {
+    background-color: #cacaca;;
+}
+
+.btn:hover,
+.calendar-btn:hover {
+    background-color: #000000
+}
+
+.btn:active,
+.calendar-btn:active {
+    background-color: #81b3d2;
+}
+
+.btn-submit {
+    background-color: #81b3d2;
+}
+
+.btn-submit:hover {
+    background-color: #669ec0;
+}
+
+.btn-submit:active {
+    background-color: #5496bd;
+    color: #94b9d2;
+}
+
+.feedback-promo span,
+.feedback-phone {
+    color:#000000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase; 
+}
+
+.social-wrapper {
+    text-align: center;
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-item a {
+    
+    background-color: #81b3d2;
+    min-width: 21px;
+    min-height: 22px;
+}
