@@ -79,6 +79,10 @@ a {
     color:#766357;
 }
 
+.nav-item .current {
+    color:#766357;
+}
+
 .main-wrapper {   
     background-image: url("../img/main-background-photo.jpg");
     background-position: top center;
@@ -86,8 +90,6 @@ a {
     min-width: 1200px;
     min-height: 773px;
 }
-
-
 
 .main-title {
     color: #000000;
@@ -99,7 +101,7 @@ a {
 }
 
 .main-subtitle {
-    color:#000000;
+    color:#333333;
     font-size: 14px;
     font-weight: normal;
     line-height: 21px;
@@ -116,7 +118,7 @@ a {
 }
 
 .feedback-text {
-    color:#000000;
+    color:#333333;
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
@@ -252,8 +254,130 @@ input[type="number"] {
 }
 
 .social-item a {
+  display: inline-block;
+  width: 45px;
+  height: 48px;
+  border: 1px solid rgba(157, 193, 214, 0.1);
+  background-color: #5496bd;
+  
+}
+
+.social-item a:hover {
+    background-color:#669ec0;
+}
+
+.social-item a:active {
+    background-color: #5496bd;
+}
+
+.social-item .tw {
+    background-image: url("../img/src/twitter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+
+.social-item .fb {
+    background-image: url("../img/src/fb-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+
+.social-item .ytb {
+    background-image: url("../img/src/youtube.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+
+/* Состояние active для соц кнопок оставлю на потом в текущем варианте не работает */
+
+.feedback-promo,
+.logo-name {
+    color:#333333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase; 
+}
+
+.logo-svg  {
+    fill: #231f20;
+}
+
+.logo-svg:hover {
+    fill: #81b3d2;   
+}
+
+.logo-svg:active {
+    fill: #bdbbbc;
+}
+
+.rating-header {
+    color:#000000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase; 
+}
+.rating-header:hover {
+    color: #81b3d2;
+}
+
+.rating-header:active {
+    color: #cacaca;
+}
+
+.rating-price-text {
+    color:#333333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-transform: uppercase;
     
+}
+
+.rating-link,
+.rating-button {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.rating-link {
     background-color: #81b3d2;
-    min-width: 21px;
-    min-height: 22px;
+}
+
+.rating-link:hover {
+    background-color: #669ec0;
+}
+
+.rating-link:active {
+    background-color: #5496bd;
+    color: #94b9d2;
+}
+
+.rating-button {
+    background-color: #766357;
+}
+
+.rating-button:hover {
+    background-color: #604e43;
+}
+
+.rating-button:active {
+    background-color: #503e33;
+    color: #928a85;
+}
+
+.rating-text {
+    background-color: #f2f2f2;
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-transform: uppercase;
 }
