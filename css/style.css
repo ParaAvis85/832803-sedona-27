@@ -1,39 +1,30 @@
+
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: normal;
-    src: url(../fonts/ptsans/PTS55F.ttf);
+    src: url(../fonts/web/ptsans.woff2) format("woff2"),
+         url(../fonts/web/ptsans.woff) format("woff");
 }
 
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: bold;
-    src: url(../fonts/ptsans/PTS75F.ttf);
-}
-
-@font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: normal;
-    src: url(../fonts/web/ptsans.woff) format("woff"),
-         url(../fonts/web/ptsans.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: bold;
-    src: url(../fonts/web/ptsansbold.woff) format("woff"),
-         url(../fonts/web/ptsansbold.woff2) format("woff2");
+    src: url(../fonts/web/ptsansbold.woff2) format("woff2"),
+         url(../fonts/web/ptsansbold.woff) format("woff");
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: PT Sans, Arial, sans-serif;
+    font-family: "PT Sans", "Arial", "sans-serif";
     background-color:f2f2f2;
-
+    color:#333333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 
 a {
@@ -72,12 +63,9 @@ a {
 }
 
 .nav-list a:active {
-    color: #cacaca;
+    color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-list a:link {
-    color:#766357;
-}
 
 .nav-item .current {
     color:#766357;
@@ -144,12 +132,21 @@ a {
 
 .popup-btn:active {
     background-color: #503e33;
-    color: #928a85;
+    color:rgba(255, 255, 255, 0.3);
 }
 
 .modal-content {
     background-color: #ffffff;
 
+}
+
+.input-date::-moz-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 26;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
 }
 
 .input-date::-webkit-input-placeholder {
@@ -161,7 +158,34 @@ a {
     padding: 5px;
 }
 
-input[type="number"] {
+.input-date::-ms-input-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 26;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.input-date:-ms-input-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 26;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.input-date::placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 26;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.input-field {
     color: #000000;
     font-size: 14px;
     line-height: 26px;
@@ -180,9 +204,8 @@ input[type="number"] {
 }
 
 .input-date,
-.input-field,
-.btn {
-    background-color: #f2f2f2;
+.input-field {
+    background-color:#f2f2f2;
 }
 
 .input-date:hover,
@@ -195,31 +218,17 @@ input[type="number"] {
     background-color: #ffffff;
 }
 
-.calendar-btn {
-    background-image: url(../img/src/calendar.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 21px;
-    min-width: 21px;
-    min-height: 22px;
-    
-}
 
 .btn{
     background-color: #a9a9a9;
+    color: #ffffff;
 }
 
-.calendar-btn {
-    background-color: #cacaca;;
-}
-
-.btn:hover,
-.calendar-btn:hover {
+.btn:hover {
     background-color: #000000
-}
+} 
 
-.btn:active,
-.calendar-btn:active {
+.btn:active {
     background-color: #81b3d2;
 }
 
@@ -233,7 +242,7 @@ input[type="number"] {
 
 .btn-submit:active {
     background-color: #5496bd;
-    color: #94b9d2;
+    color:rgba(255, 255, 255, 0.3);
 }
 
 .feedback-promo span,
@@ -326,7 +335,7 @@ input[type="number"] {
 }
 
 .rating-header:active {
-    color: #cacaca;
+    color:rgba(255, 255, 255, 0.3);
 }
 
 .rating-price-text {
@@ -357,7 +366,7 @@ input[type="number"] {
 
 .rating-link:active {
     background-color: #5496bd;
-    color: #94b9d2;
+    color:rgba(255, 255, 255, 0.3);
 }
 
 .rating-button {
