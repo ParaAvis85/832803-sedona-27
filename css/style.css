@@ -358,6 +358,97 @@ a {
     fill: #bdbbbc;
 }
 
+.form-search.forest {
+    background-image: url("../img/filter-background.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+.checkbox-wrapper {
+    border: none;
+}
+
+.checbox-list {
+    list-style: none;
+}
+
+.checkbox-header {
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase; 
+    
+}
+
+.checkbox-label,
+.btn-form{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+
+
+.btn-form {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.btn-form:hover {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.sort-panel-header {
+    color:#000000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase; 
+}
+
+.sort-panel-text {
+    color:#000000;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    
+}
+
+.sort-list {
+    list-style: none;
+}
+
+.sort-panel-item a {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    border-bottom: dotted 1px #81b3d2;
+}
+
+.sort-panel-item a:hover {
+    color: #81b3d2;
+    border-bottom: dotted 1px #81b3d2;
+}
+
+.sort-panel-item a:active {
+    color: #000000;
+    border-bottom: dotted 1px #000000;
+}
+
+.sort-panel-item .current {
+    color:#81b3d2;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
 .rating-header,
 .rating-text-link {
     color:#000000;
