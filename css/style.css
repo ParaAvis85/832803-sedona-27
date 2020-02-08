@@ -108,6 +108,54 @@ a {
     vertical-align: bottom;
 }
 
+.feauture-slogan-wrapper {
+    background-color: #81b3d2;
+}
+
+.feauture-slogan-head {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.feauture-text-white {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.feauture-text.head {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.feauture-slogan {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.feauture-text {
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.feauture-list {
+    list-style: none;
+}
+
 .feedback-title {
     color:#000000;
     font-size: 30px;
