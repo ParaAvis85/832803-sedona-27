@@ -18,8 +18,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "PT Sans", "Arial", "sans-serif";
-    background-color:f2f2f2;
+    font-family: "PT Sans", "Arial", sans-serif;
+    background-color:#f2f2f2;
     color:#333333;
     font-size: 14px;
     font-weight: normal;
@@ -151,49 +151,38 @@ a {
 
 }
 
-.input-date::-moz-placeholder {
-    color: #000000;
+.input-date {
     font-size: 14px;
-    line-height: 26;
+    line-height: 26px;
     font-weight: bold;
     text-transform: uppercase;
     padding: 5px;
+}
+
+.input-date::-moz-placeholder {
+    color: #000000;
+    opacity: 1;
+    
 }
 
 .input-date::-webkit-input-placeholder {
     color: #000000;
-    font-size: 14px;
-    line-height: 26;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 5px;
+    opacity: 1;
 }
 
 .input-date::-ms-input-placeholder {
     color: #000000;
-    font-size: 14px;
-    line-height: 26;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 5px;
+    opacity: 1;
 }
 
 .input-date:-ms-input-placeholder {
     color: #000000;
-    font-size: 14px;
-    line-height: 26;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 5px;
+    opacity: 1;
 }
 
 .input-date::placeholder {
     color: #000000;
-    font-size: 14px;
-    line-height: 26;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 5px;
+    opacity: 1;
 }
 
 .input-field {
@@ -203,6 +192,7 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    padding: 5px;
 }
 
 .popup-calendar label,
@@ -227,20 +217,6 @@ a {
 .input-date:focus,
 .input-field:focus {
     background-color: #ffffff;
-}
-
-
-.btn{
-    background-color: #a9a9a9;
-    color: #ffffff;
-}
-
-.btn:hover {
-    background-color: #000000
-} 
-
-.btn:active {
-    background-color: #81b3d2;
 }
 
 .btn-submit {
@@ -349,7 +325,7 @@ a {
 
 .rating-header:active,
 .rating-text-link:active {
-    color:rgba(255, 255, 255, 0.3);
+    color:rgba(0, 0, 0, 0.3);
 }
 
 .rating-price-text {
