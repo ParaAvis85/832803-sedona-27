@@ -97,6 +97,10 @@ a {
     text-align: center;
 }
 
+.logo-sedona-img {
+    padding-top: 75px;
+}
+
 .title-wrapper {   
     background-image: url("../img/src/polygon.png");
     background-position: center;
@@ -172,6 +176,13 @@ a {
 
 .feauture-list {
     list-style: none;
+}
+
+.feedback-info {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
 }
 
 .feedback-title {
@@ -314,14 +325,20 @@ a {
 
 .social-wrapper {
     text-align: center;
+    display: flex;
+    align-self: center;
 }
 
 .social-list {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .social-item a {
-  display: inline-block;
+  display: block;
   width: 45px;
   height: 48px;
   border: 1px solid rgba(157, 193, 214, 0.1);
@@ -362,6 +379,7 @@ a {
 
 .feedback-promo,
 .logo-name {
+    white-space: pre;
     color:#333333;
     font-size: 14px;
     font-weight: normal;
