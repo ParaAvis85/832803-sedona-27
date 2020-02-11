@@ -30,6 +30,7 @@ body {
 
 .wrapper {
     background-color:#ffffff;
+    max-width: 1200px;
 }
 
 a {
@@ -49,9 +50,18 @@ a {
     overflow: hidden;
   }
 
+.page-logo-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -69px;
+}
+
 .nav-list {
     list-style: none;
-    
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
 }
 
 .nav-list  a {
@@ -59,8 +69,12 @@ a {
     font-size:  14px;
     line-height: 26px;
     font-weight: bold;
-    font-family: PT Sans, Arial, serif;
     text-transform: uppercase;
+    display: block;
+    width: 239px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav-list a:hover {
@@ -87,7 +101,7 @@ a {
     background-image: url("../img/src/polygon.png");
     background-position: center;
     background-repeat: no-repeat; 
-    min-width: 1200px;
+    max-width: 1200px;
     min-height: 274px;
     
 }
