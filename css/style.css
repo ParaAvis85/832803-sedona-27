@@ -31,6 +31,7 @@ body {
 .wrapper {
     background-color:#ffffff;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 a {
@@ -51,9 +52,11 @@ a {
   }
 
 .page-logo-link {
-    display: flex;
-    justify-content: center;
-    margin-bottom: -69px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
 }
 
 .nav-list {
@@ -85,6 +88,10 @@ a {
     color: rgba(0, 0, 0, 0.3);
 }
 
+
+.nav-list li:nth-child(4n-2) {
+margin-right: auto;
+}
 
 .nav-item .current {
     color:#766357;
