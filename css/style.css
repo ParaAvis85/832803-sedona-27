@@ -62,22 +62,46 @@ a {
 .nav-list {
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    line-height: 26px;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    
 }
 
 .nav-list  a {
     color: #000000;
     font-size:  14px;
-    line-height: 26px;
     font-weight: bold;
     text-transform: uppercase;
-    display: block;
-    width: 239px;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+}
+
+.nav-list li:nth-child(1) {
+    padding-left: 31px;
+    width: 239px;
+    margin-right: 48px;
+    text-align: left;
+}
+
+.nav-list li:nth-child(2) {
+    margin-right: 240px;
+    text-align: left;
+    width: 239px;
+    padding-left: 28px;
+}
+
+.nav-list li:nth-child(3){
+    width: 239px;
+    text-align: right;
+    margin-right: 42px;
+    padding-right: 38px;
+}
+
+.nav-list li:nth-child(4){
+    padding-right: 72px;
+    text-align: right;
+    width: 239px;
 }
 
 .nav-list a:hover {
@@ -86,11 +110,6 @@ a {
 
 .nav-list a:active {
     color: rgba(0, 0, 0, 0.3);
-}
-
-
-.nav-list li:nth-child(4n-2) {
-margin-right: auto;
 }
 
 .nav-item .current {
