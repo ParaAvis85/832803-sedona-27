@@ -165,6 +165,7 @@ a {
 .feature-section-wrapper {
     display: flex;
     flex-direction: row;
+    background-color: #eeeeee;
 }
 
 .feature-section.second {
@@ -210,6 +211,8 @@ a {
     font-weight: normal;
     line-height: 21px;
     text-transform: uppercase;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .feauture-text.head {
@@ -219,6 +222,8 @@ a {
     line-height: 21px;
     text-transform: uppercase;
     padding-top: 25px;
+    margin-top: 135px;
+    margin-bottom: 10px;
 }
 
 .feauture-slogan {
@@ -234,7 +239,9 @@ a {
     font-size: 14px;
     font-weight: normal;
     line-height: 21px;
-    text-transform: uppercase;    
+    text-transform: uppercase; 
+    padding-left: 54px;
+    padding-right: 55px;   
 }
 
 .feauture-list {
@@ -247,7 +254,7 @@ a {
 
 .feauture-item {
     display: flex;
-    height: 256px;
+    min-height: 330px;
     width: 400px;
     flex-direction: column;
     text-align: center;
@@ -266,6 +273,7 @@ a {
     font-weight: bold;
     line-height: 36px;
     text-transform: uppercase;
+    margin-top: 50px;
 }
 
 .feedback-text {
@@ -274,10 +282,16 @@ a {
     font-weight: normal;
     line-height: 24px;
     text-transform: uppercase;
+    margin-bottom: 42px;
 }
 
 .feedback-section {
     background-color: #ffffff;
+}
+
+.feedback-text-wrapper {
+    text-align: center;
+    padding: 0 316px;
 }
 
 .popup-btn {
@@ -287,6 +301,9 @@ a {
     line-height: 26px;
     text-transform: uppercase;
     background-color: #766357;
+    width: 568px;
+    height: 86px;
+    border: 1px solid #766357 ;
 }
 
 .popup-btn:hover {
