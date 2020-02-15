@@ -537,12 +537,21 @@ a {
     color: #000000;
 }
 
+.sort-wrapper {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    align-items: baseline;
+    padding: 29px 72px 29px 72px;
+}
+
 .sort-panel-header {
     color:#000000;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
     text-transform: uppercase; 
+    margin: 0;
+    margin-right: 10px;
 }
 
 .sort-panel-text {
@@ -550,11 +559,18 @@ a {
     font-size: 12px;
     font-weight: normal;
     line-height: 18px;
-    
+    margin: 0;
+    margin-left: 26px;
+    padding-left: 14px;
 }
 
 .sort-list {
     list-style: none;
+    display: flex;
+    width: 269px;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 21px;
 }
 
 .sort-panel-item a {
