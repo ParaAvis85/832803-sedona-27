@@ -625,6 +625,29 @@ a {
     border: none;
 }
 
+.rating {
+    display: flex;
+    padding: 25px 72px;
+}
+
+.rating-fullimage-wrapper {
+    width: 165px;
+    height: 90px;
+}
+
+.rating-header-wrapper {
+    width: 781px;
+    min-height: 100px;
+}
+
+.rating-hidden-text-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 97px;
+    width: 110px;
+    text-align: right;
+}
+
 .rating-header,
 .rating-text-link {
     color:#000000;
@@ -694,4 +717,10 @@ a {
     font-weight: normal;
     line-height: 21px;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.rating-list {
+    display: flex;
+    flex-direction: row;
 }
