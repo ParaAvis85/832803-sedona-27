@@ -34,51 +34,55 @@
          <form action="https://echo.htmlacademy.ru" method="post">
           <fieldset class="checkbox-wrapper">
             <legend class="checkbox-header">Инфраструктура:</legend>
-              <ul class="checbox-list">
+              <ul class="checkbox-list">
                 <li class="checkbox-item">
                   <label class="checkbox-label" for="pool">Бассейн</label>
-                  <input class="field checbox-field" type="checkbox" id="pool" name="pool" checked>
+                  <input class="field checkbox-field" type="checkbox" id="pool" name="pool" checked>
                </li>
                <li class="checkbox-item">
                   <label class="checkbox-label" for="parking">Парковка</label>
-                  <input class="field checbox-field" type="checkbox" id="parking" name="parking">
+                  <input class="field checkbox-field" type="checkbox" id="parking" name="parking">
                </li>
                <li class="checkbox-item">
                  <label class="checkbox-label" for="wi-fi">WI-FI</label>
-                 <input class="field checbox-field" type="checkbox" id="wi-fi" name="wi-fi">
+                 <input class="field checkbox-field" type="checkbox" id="wi-fi" name="wi-fi">
                </li>
               </ul>
           </fieldset>
 
           <fieldset class="checkbox-wrapper">
             <legend class="checkbox-header">Типа жилья:</legend>
-              <ul class="checbox-list">
+              <ul class="checkbox-list">
                 <li class="checkbox-item">
                   <label class="checkbox-label" for="hotel">Гостиница</label>
-                  <input class="field checbox-field" type="checkbox" id="hotel" name="hotel" checked>
+                  <input class="field checkbox-field" type="checkbox" id="hotel" name="hotel" checked>
                 </li>
                 <li class="checkbox-item">
                   <label class="checkbox-label" for="motel">Мотель</label>
-                  <input class="field checbox-field" type="checkbox" id="motel" name="motel" checked>
+                  <input class="field checkbox-field" type="checkbox" id="motel" name="motel" checked>
                 </li>
                 <li class="checkbox-item">
                   <label class="checkbox-label" for="apartment">Апартаменты</label>
-                  <input class="field checbox-field" type="checkbox" id="apartment" name="apartment" checked>
+                  <input class="field checkbox-field" type="checkbox" id="apartment" name="apartment" checked>
                 </li>
               </ul>
           </fieldset>
 
-          <fieldset class="checkbox-wrapper">
-             <legend class="checkbox-header">Стоимость в сутки (Р):</legend>
-              <p class="checkbox-p">
-                <label class="checkbox-label" for="min-price">От</label>
-                <input class="field checbox-field" type="number" id="min-price" name="min-price" value="0">
-                <label class="checkbox-label" for="max-price">До</label>
-                <input class="field checbox-field" type="number" id="max-price" name="max-price" value="3000">
-              </p>
-          </fieldset>
-
-          <button class="btn-form" type="submit">Показать</button>
+          <div class="filter-range">
+            <div class="filter-range-title">Стоимость в сутки (р):</div>
+            <div class="price-controls">
+              <label class="min-price">от <input type="number" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="number" name="max-price" value="3000"></label>
+            </div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
+            <button class="btn-form btn-transparent" type="submit">Показать</button>
+          </div>
          </form>
         </section>
 
