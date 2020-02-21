@@ -15,6 +15,16 @@
          url(../fonts/web/ptsansbold.woff) format("woff");
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -517,6 +527,11 @@ a {
     fill: #bdbbbc;
 }
 
+.form-search-hotel {
+    display: flex;
+    height: 217px;
+}
+
 .form-search.forest {
     background-image: url("../img/filter-background.jpg");
     background-repeat: no-repeat;
@@ -564,9 +579,10 @@ a {
 }
 
 .filter-range {
+    box-sizing: content-box;
     width: 330px;
-    margin: 50px auto; 
-  
+    margin-top: 27px;  
+    margin-bottom: 32px;
     color: #ffffff;
     text-transform: uppercase;
   }
