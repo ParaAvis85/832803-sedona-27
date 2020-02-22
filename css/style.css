@@ -535,15 +535,53 @@ a {
 .form-search.forest {
     background-image: url("../img/filter-background.jpg");
     background-repeat: no-repeat;
-    
+    background-position-y: -55px;
 }
 
 .checkbox-wrapper {
     border: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    margin-left: 57px;
+    margin-top: 21px;
 }
 
 .checkbox-list {
     list-style: none;
+    padding-left: 54px;
+}
+
+.checkbox-item {
+   margin-bottom: 28px;
+}
+
+.checkbox-item label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-field + label::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/src/checkbox-off.svg");
+  background-repeat: no-repeat;
+  left: -40px;
+  width: 27px;
+  height: 23px;
+ 
+}
+
+.checkbox-field:checked + label::after {
+    content: "";
+  position: absolute;
+  background-image: url("../img/src/checkbox-on.svg");
+  background-repeat: no-repeat;
+  left: -40px;
+  width: 27px;
+  height: 23px;
 }
 
 .checkbox-header {
@@ -551,8 +589,8 @@ a {
     font-size: 16px;
     font-weight: bold;
     line-height: 26px;
-    text-transform: uppercase; 
-    
+    text-transform: uppercase;
+    margin-left: 16px; 
 }
 
 .checkbox-label,
@@ -583,6 +621,8 @@ a {
     width: 330px;
     margin-top: 27px;  
     margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: 65px;
     color: #ffffff;
     text-transform: uppercase;
   }
