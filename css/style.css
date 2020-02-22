@@ -819,12 +819,15 @@ a {
 
 .rating {
     display: flex;
-    padding: 25px 72px;
+    padding: 25px 61px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .rating-fullimage-wrapper {
     width: 165px;
     height: 90px;
+    margin-top: 7px;
+    margin-left: 10px;
 }
 
 .rating-header-wrapper {
@@ -838,6 +841,7 @@ a {
     height: 97px;
     width: 110px;
     text-align: right;
+    margin-left: 5px;
 }
 
 .rating-header,
@@ -846,7 +850,9 @@ a {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 2px; 
 }
 .rating-header:hover,
 .rating-text-link:hover {
@@ -864,7 +870,11 @@ a {
     font-weight: normal;
     line-height: 21px;
     text-transform: uppercase;
-    
+    margin-top: 7px;
+}
+
+.rating-price {
+    margin-left: 39px;
 }
 
 .rating-link,
@@ -878,6 +888,12 @@ a {
 
 .rating-link {
     background-color: #81b3d2;
+    width: 110px;
+    height: 27px;
+    display: inline-flex;
+    padding-top: 4px;
+    padding-left: 14px;
+    margin-right: 6px;
 }
 
 .rating-link:hover {
@@ -891,6 +907,11 @@ a {
 
 .rating-button {
     background-color: #766357;
+    width: 142px;
+    height: 27px;
+    display: inline-flex;
+    padding-top: 4px;
+    padding-left: 14px;
 }
 
 .rating-button:hover {
@@ -910,6 +931,8 @@ a {
     line-height: 21px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0px;
+    margin-bottom: 3px;
 }
 
 .rating-list {
@@ -917,6 +940,9 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-left: 0px;
 }
 
 .rating-star {
