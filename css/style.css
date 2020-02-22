@@ -915,4 +915,16 @@ a {
 .rating-list {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.rating-star {
+    margin-right: 5px;
+    list-style: none;
+    background-image: url("../img/src/star.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 17px;
 }
