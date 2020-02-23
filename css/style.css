@@ -487,6 +487,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     margin: 5px;
+    
 }
 
 .social-item .fb {
@@ -815,6 +816,27 @@ a {
     font-weight: normal;
     line-height: 18px;
     border: none;
+}
+
+.arrow {
+    fill: #cacaca;
+}
+
+.arrow-down {
+    margin-left: 10px;
+}
+
+.arrow:hover {
+    fill: #231f20;
+}
+
+.arrow:active {
+    fill: #81b3d2;
+}
+
+
+.arrow-down.active {
+    fill: #81b3d2;
 }
 
 .rating {
