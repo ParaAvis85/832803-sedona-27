@@ -790,6 +790,7 @@ a {
     justify-content: space-around;
     margin: 0;
     padding-left: 21px;
+    margin-right: auto;
 }
 
 .sort-panel-item a {
