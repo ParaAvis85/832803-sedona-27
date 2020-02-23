@@ -308,7 +308,7 @@ a {
     width: 80px;  
     height: 80px;
     margin-left: 158px;
-    margin-top: 61px;
+    margin-top: 57px;
 }
 
 .food::before {
@@ -320,7 +320,7 @@ a {
     width: 80px;  
     height: 80px;
     margin-left: 160px;
-    margin-top: 61px;
+    margin-top: 57px;
 }
 
 .souvenirs::before {
@@ -329,10 +329,10 @@ a {
     background-image: url(../img/src/icon-2.svg);
     background-position: center;
     background-repeat: no-repeat;
-    width: 75px;  
-    height: 72px;
+    width: 80px;  
+    height: 80px;
     margin-left: 160px;
-    margin-top: 61px;
+    margin-top: 55px;
 }
 
 .feedback-section {
