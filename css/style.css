@@ -287,6 +287,10 @@ a {
 
 }
 
+.feedback-info-static {
+    position: static;
+}
+
 .feedback-title {
     color:#000000;
     font-size: 30px;
@@ -511,7 +515,7 @@ a {
   height: 48px;
   border: 1px solid rgba(157, 193, 214, 0.1);
   background-color: #5496bd;
-  
+  fill: #ffffff;
 }
 
 .social-item a:hover {
@@ -520,28 +524,33 @@ a {
 
 .social-item a:active {
     background-color: #5496bd;
+    fill: #88b6d1;
 }
 
 .social-item .tw {
-    background-image: url("../img/src/twitter.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
     margin: 5px;
-    
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
 }
 
 .social-item .fb {
-    background-image: url("../img/src/fb-icon.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
     margin: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-item .ytb {
-    background-image: url("../img/src/youtube.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
     margin: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
 }
 
 /* Состояние active для соц кнопок оставлю на потом в текущем варианте не работает */
