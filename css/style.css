@@ -38,6 +38,12 @@ body {
     text-transform: uppercase; 
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .wrapper {
     background-color:#ffffff;
     width: 1200px;
@@ -350,13 +356,15 @@ a {
 }
 
 .modal-form {
+    width: 568px;
+    height: 395px;
     margin: 0;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
     padding: 55px;
     position: absolute;
-    bottom: 160px;
+    bottom: 204px;
     left: 50%;
     margin-left: -284px;
     box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
@@ -389,11 +397,16 @@ a {
 }
 
 .input-date {
+    border: medium none;
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 5px;
+    height: 35px;
+    width: 331px;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 35px;
 }
 
 .input-date::-moz-placeholder {
@@ -423,13 +436,15 @@ a {
 }
 
 .input-field {
+    border: medium none;
     color: #000000;
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    padding: 5px;
+    width: 38px;
+    height: 38px;
 }
 
 .popup-calendar label,
@@ -439,6 +454,15 @@ a {
     font-weight: bold;
     line-height: 26px;
     text-transform: uppercase; 
+}
+
+.popup-area {
+    display: flex;
+    margin: 0;
+}
+
+.popup-area-wrapper {
+    display: flex;
 }
 
 .input-date,
@@ -456,7 +480,81 @@ a {
     background-color: #ffffff;
 }
 
+.calendar-btn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    right: 91px;
+    background-color: transparent;
+    fill: #a9a9a9;
+}
+
+.calendar-btn:hover {
+    fill: #000000;
+}
+
+.calendar-btn:active {
+    fill: #81b3d2;
+}
+
+.btn-minus,
+.btn-plus {
+    position: relative;
+    height: 38px;
+    width: 38px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #a9a9a9;
+}
+
+.btn-minus::before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 3px;
+    background-color: #a9a9a9;
+}
+
+.btn-minus:hover::before {
+    background-color: #000000;
+}
+
+.btn-minus:active::before {
+    background-color: #81b3d2;
+}
+
+.btn-plus::before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 3px;
+    background-color: #a9a9a9;
+}
+
+.btn-plus::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 3px;
+    background-color: #a9a9a9;
+    transform: rotate(90deg);
+}
+
+.btn-plus:hover::after,
+.btn-plus:hover::before {
+    background-color: #000000;
+}
+
+.btn-plus:active::after,
+.btn-plus:active::before {
+    background-color: #81b3d2;
+}
+
 .btn-submit {
+    border: medium none;
     color: #ffffff;
     font-size: 21px;
     font-weight: bold;
@@ -466,6 +564,7 @@ a {
     width: 458px;
     height: 58px;
     align-self: center;
+    margin-top: 64px;
 }
 
 .btn-submit:hover {
