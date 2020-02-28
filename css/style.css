@@ -138,7 +138,7 @@ a {
 }
 
 .title-wrapper {   
-    min-height: 215px;
+    min-height: 216px;
     
 }
 
@@ -164,6 +164,8 @@ a {
     text-align: center;
     padding-top: 30px;
     margin: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .feature-section {
@@ -188,7 +190,10 @@ a {
     
     text-align: center;
     width: 400px;
-    height: 256px;
+    padding-top: 47px;
+    padding-bottom: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .feauture-picture {
@@ -202,9 +207,9 @@ a {
     display: flex;
     background-color: #81b3d2;
     width: 400px;
-    height: 256px;
     flex-direction: column;
     text-align: center;
+    padding-top: 46px;
 }
 
 .feauture-slogan-head {
@@ -213,7 +218,7 @@ a {
     font-weight: bold;
     line-height: 21px;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin: 0;
     margin-bottom: 9px;
     padding-left: 100px;
     padding-right: 100px;
@@ -225,9 +230,11 @@ a {
     font-weight: normal;
     line-height: 21px;
     text-transform: uppercase;
+    padding-top: 14px;
     padding-left: 49px;
     padding-right: 49px;
-    margin-bottom: 7px;
+    margin: 0;
+    margin-bottom: 9px;
 }
 
 .feauture-text.head {
@@ -237,8 +244,8 @@ a {
     line-height: 21px;
     text-transform: uppercase;
     padding-top: 25px;
-    margin-top: 139px;
-    margin-bottom: 10px;
+    padding-top: 161px;
+    margin-bottom: 24px;
 }
 
 .feauture-slogan {
@@ -247,7 +254,8 @@ a {
     font-weight: bold;
     line-height: 21px;
     text-transform: uppercase;
-    margin-top: 49px;
+    margin: 0;
+    margin-bottom: 24px;
 }
 
 .feauture-slogan.third {
@@ -271,26 +279,27 @@ a {
     font-weight: normal;
     line-height: 21px;
     text-transform: uppercase; 
+    margin: 0;
     padding-left: 54px;
     padding-right: 55px;   
 }
 
 .feauture-text.third {
     padding-left: 60px;
-    padding-right: 60px;
-    margin-top: 23px;
+    padding-right: 62px;
+    margin-bottom: 21px;
 }
 
 .feauture-text.four {
-    margin-top: 23px;
-    padding-left: 67px;
-    padding-right: 70px;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-bottom: 21px;
 }
 
 .feauture-text.five {
-    margin-top: 23px;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 51px;
+    padding-right: 52px;
+    margin-bottom: 21px;
 }
 
 .feauture-list {
@@ -307,6 +316,7 @@ a {
     width: 400px;
     flex-direction: column;
     text-align: center;
+    position: relative;
 }
 
 .feedback-info {
@@ -355,8 +365,8 @@ a {
     background-repeat: no-repeat;
     width: 80px;  
     height: 80px;
-    margin-left: 158px;
-    margin-top: 57px;
+    left: 159px;
+    top: 56px;
 }
 
 .food::before {
@@ -367,8 +377,8 @@ a {
     background-repeat: no-repeat;
     width: 80px;  
     height: 80px;
-    margin-left: 160px;
-    margin-top: 57px;
+    left: 160px;
+    top: 56px;
 }
 
 .souvenirs::before {
@@ -379,8 +389,8 @@ a {
     background-repeat: no-repeat;
     width: 80px;  
     height: 80px;
-    margin-left: 160px;
-    margin-top: 55px;
+    left: 160px;
+    top: 54px;
 }
 
 .feedback-section {
@@ -1083,7 +1093,7 @@ a {
 }
 
 .rating-header-wrapper {
-    width: 781px;
+    width: 785px;
     min-height: 100px;
 }
 
@@ -1093,7 +1103,7 @@ a {
     height: 97px;
     width: 110px;
     text-align: right;
-    margin-left: 5px;
+    margin-left: auto;
 }
 
 .rating-header,
