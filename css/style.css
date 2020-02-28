@@ -814,7 +814,7 @@ a {
  
 }
 
-.checkbox-field:checked + label::after {
+.checkbox-field:checked + label::before {
     content: "";
   position: absolute;
   background-image: url("../img/src/checkbox-on.svg");
@@ -858,18 +858,17 @@ a {
 
 .filter-range {
     box-sizing: content-box;
-    width: 330px;
-    margin-top: 27px;  
-    margin-bottom: 32px;
+    width: 320px;
+    margin-top: 28px;
+    margin-bottom: 30px;
     margin-left: auto;
-    margin-right: 65px;
+    margin-right: 70px;
     color: #ffffff;
     text-transform: uppercase;
   }
 
 .filter-range-title {
-    margin-bottom: 9px;
-  
+    margin-bottom: 8px;
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
@@ -877,12 +876,9 @@ a {
   
   .price-controls {
     position: relative;
-    
-    height: 36px;
+    height: 33px;
     margin-bottom: 20px;
-    
     font-size: 0;
-  
     border: 2px solid #ffffff;
     border-radius: 2px;
   }
@@ -904,7 +900,7 @@ a {
     display: inline-block;
   
     font-size: 14px;
-    line-height: 38px;
+    line-height: 35px;
     vertical-align: top;
   
     cursor: pointer;
@@ -912,7 +908,7 @@ a {
   
   .price-controls .min-price,
   .price-controls .max-price {
-    width: 90px;
+    width: 81px;
     padding-left: 65px;
   }
   
@@ -950,18 +946,19 @@ a {
     position: absolute;
     top: -9px;
     
-    width: 4px;
+    /* width: 4px;
     height: 4px;
   
     background: #ababab;
     border: 8px solid #ffffff;
-    border-radius: 50%;
-    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    border-radius: 50%; */
+    /* box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2); */
     cursor: pointer;
   }
   
   .range-toggle:hover {
-    background: #1c4f80;
+    /* background: #1c4f80; */
+    transform: scale(1.1);
   }
   
   .range-toggle-min {
@@ -969,13 +966,13 @@ a {
   }
   
   .range-toggle-max {
-    left: 80%;
+    left: 79%;
   }
   
   .btn-transparent {
     display: block;
     margin: 0 auto;
-    padding: 6px 35px;
+    padding: 6px 33px;
   
     font-size: 14px;
     line-height: 20px;
@@ -986,6 +983,7 @@ a {
     border: 2px solid #ffffff;
     border-radius: 2px;
     cursor: pointer;
+    margin-right: 98px;
   }
   
   .btn-transparent:hover {
@@ -1100,10 +1098,9 @@ a {
 .rating-hidden-text-wrapper {
     display: flex;
     flex-direction: column-reverse;
-    height: 97px;
+    height: 100px;
     width: 110px;
     text-align: right;
-    margin-left: auto;
 }
 
 .rating-header,
@@ -1135,16 +1132,18 @@ a {
     margin-top: 7px;
 }
 
-.rating-price {
-    margin-left: 37px;
-}
 
-.rating-number {
-    margin-left: 62px;
+.rating-hotel {
+    display: inline-block;
+    width: 117px;
 }
-
-.rating-number-last {
-    margin-left: 18px;
+.rating-motel {
+    display: inline-block;
+    width: 117px;
+}
+.rating-apartment {
+    display: inline-block;
+    width: 116px;
 }
 
 .rating-link,
@@ -1159,11 +1158,12 @@ a {
 .rating-link {
     background-color: #81b3d2;
     width: 110px;
-    height: 27px;
     display: inline-flex;
     padding-top: 4px;
-    padding-left: 14px;
-    margin-right: 6px;
+    padding-left: 17px;
+    padding-bottom: 2px;
+    padding-right: 12px;
+    margin-right: 3px;
 }
 
 .rating-link:hover {
@@ -1178,10 +1178,11 @@ a {
 .rating-button {
     background-color: #766357;
     width: 142px;
-    height: 27px;
     display: inline-flex;
     padding-top: 4px;
-    padding-left: 14px;
+    padding-left: 18px;
+    padding-bottom: 2px;
+    padding-right: 14px;
 }
 
 .rating-button:hover {
@@ -1198,11 +1199,12 @@ a {
     color: #666666;
     font-size: 14px;
     font-weight: normal;
-    line-height: 21px;
+    line-height: 27px;
     text-transform: uppercase;
     text-align: center;
     margin: 0px;
-    margin-bottom: 3px;
+    padding-right: 9px;
+    padding-bottom: 3px;
 }
 
 .rating-list {
@@ -1211,7 +1213,7 @@ a {
     justify-content: flex-end;
     padding: 0;
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 47px;
     margin-left: 0px;
 }
 
