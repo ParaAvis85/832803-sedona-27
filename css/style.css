@@ -536,7 +536,7 @@ a {
 .number-adult.child {
     margin: 0;
     margin-left: 52px;
-    margin-top: 7px;
+    margin-top: 5px;
 }
 
 .input-date,
@@ -599,6 +599,7 @@ a {
     width: 12px;
     height: 3px;
     background-color: #a9a9a9;
+    top: 16px;
 }
 
 .btn-minus:hover::before {
@@ -615,6 +616,7 @@ a {
     width: 12px;
     height: 3px;
     background-color: #a9a9a9;
+    top: 16px;
 }
 
 .btn-plus::after {
@@ -624,6 +626,7 @@ a {
     height: 3px;
     background-color: #a9a9a9;
     transform: rotate(90deg);
+    top: 16px;
 }
 
 .btn-plus:hover::after,
@@ -746,13 +749,14 @@ a {
 
 .logo-name {
     padding-left: 103px;
-    padding-right: 9px;
+    padding-right: 13px;
     margin-bottom: 9px;
     
 }
 
 .logo-svg  {
     fill: #231f20;
+    transform: scale(1.1);
 }
 
 .logo-svg:hover {
