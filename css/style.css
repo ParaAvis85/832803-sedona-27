@@ -737,9 +737,6 @@ a {
     margin-top: 5px;
 }
 
-.feedback-promo {
-    
-}
 
 .feedback-promo-link {
     width: 400px;
@@ -1016,17 +1013,16 @@ a {
     font-weight: normal;
     line-height: 18px;
     margin: 0;
-    margin-left: 26px;
+    margin-left: 23px;
     padding-left: 14px;
 }
 
 .sort-list {
     list-style: none;
     display: flex;
-    width: 269px;
-    justify-content: space-around;
+    width: 320px;
     margin: 0;
-    padding-left: 21px;
+    padding-left: 40px;
     margin-right: auto;
 }
 
@@ -1036,6 +1032,10 @@ a {
     font-weight: normal;
     line-height: 18px;
     border-bottom: dotted 1px #81b3d2;
+}
+
+.sort-panel-item {
+    margin-right: 33px;
 }
 
 .sort-panel-item a:hover {
