@@ -1098,7 +1098,7 @@ a {
 .rating-hidden-text-wrapper {
     display: flex;
     flex-direction: column-reverse;
-    height: 100px;
+    height: 97px;
     width: 110px;
     text-align: right;
 }
@@ -1133,17 +1133,11 @@ a {
 }
 
 
-.rating-hotel {
-    display: inline-block;
-    width: 117px;
-}
-.rating-motel {
-    display: inline-block;
-    width: 117px;
-}
+.rating-hotel,
+.rating-motel,
 .rating-apartment {
     display: inline-block;
-    width: 116px;
+    width: 117px;
 }
 
 .rating-link,
@@ -1203,8 +1197,11 @@ a {
     text-transform: uppercase;
     text-align: center;
     margin: 0px;
-    padding-right: 9px;
-    padding-bottom: 3px;
+}
+
+.rating-text-number {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .rating-list {
