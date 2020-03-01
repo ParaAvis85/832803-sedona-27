@@ -677,6 +677,10 @@ a {
     text-transform: uppercase; 
 }
 
+.feedback-phone {
+    padding-left: 31px;
+}
+
 .social-wrapper {
     text-align: center;
     display: flex;
@@ -734,8 +738,9 @@ a {
 }
 
 .feedback-promo {
+    display: flex;
+    flex-direction: column;
     width: 400px;
-    white-space: pre;
     color:#333333;
     font-size: 14px;
     font-weight: normal;
@@ -743,9 +748,13 @@ a {
     text-transform: uppercase; 
     padding-left: 94px;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
+.feedback-promo-span {
+    margin-bottom: 5px;
+    padding-left: 29px;
+}
 
 .feedback-promo-link {
     width: 400px;
