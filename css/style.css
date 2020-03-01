@@ -556,6 +556,8 @@ a {
 .input-date:focus,
 .input-field:focus {
     background-color: #ffffff;
+    outline: none;
+    border: 2px solid #e5e5e5;
 }
 
 .calendar-btn {
