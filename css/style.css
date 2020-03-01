@@ -68,6 +68,10 @@ a {
     overflow: hidden;
   }
 
+.page-nav {
+    position: relative;
+}
+
 .page-logo-link {
     position: absolute;
     left: 50%;
