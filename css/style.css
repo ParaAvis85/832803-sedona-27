@@ -38,6 +38,10 @@ body {
     text-transform: uppercase; 
 }
 
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -467,6 +471,7 @@ a {
     position: relative;
     padding-left: 13px;
     padding-right: 35px;
+    border: 2px solid transparent;
 }
 
 .input-date::-moz-placeholder {
