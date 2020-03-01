@@ -129,11 +129,12 @@ a {
 
 .main-wrapper {
     min-height: 508px;
+    background-color: #81b3d2;
     background-image:  url(../img/src/polygon.svg),
                        url("../img/main-background-photo.jpg");
     background-repeat: no-repeat;
-    background-position: bottom,
-    0px -56px;
+    background-position:bottom,
+                         0px -56px;
     text-align: center;
 }
 
@@ -444,6 +445,10 @@ a {
 .popup-btn:active {
     background-color: #503e33;
     color:rgba(255, 255, 255, 0.3);
+}
+
+.map {
+    border: 0;
 }
 
 .modal-content {
@@ -933,8 +938,7 @@ a {
     margin: 0;
   
     color: inherit;
-    font: inherit;
-  
+    
     background: none;
     border: none;
   }
@@ -961,19 +965,12 @@ a {
   .range-toggle {
     position: absolute;
     top: -9px;
-    
-    /* width: 4px;
-    height: 4px;
-  
-    background: #ababab;
-    border: 8px solid #ffffff;
-    border-radius: 50%; */
-    /* box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2); */
     cursor: pointer;
+    background-color: transparent;
+    border: none;
   }
   
   .range-toggle:hover {
-    /* background: #1c4f80; */
     transform: scale(1.1);
   }
   
