@@ -18,13 +18,13 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -46,8 +46,8 @@ input[type='number'] {
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .wrapper {
@@ -121,7 +121,7 @@ a {
 }
 
 .nav-list li:nth-child(3),
-.nav-list li:nth-child(4){
+.nav-list li:nth-child(4) {
     width: 239px;
     text-align: right;
 }
@@ -770,12 +770,12 @@ a {
 }
 
 .social-item a {
-  display: block;
-  width: 45px;
-  height: 48px;
-  border: 1px solid rgba(157, 193, 214, 0.1);
-  background-color: #81b3d2;
-  fill: #ffffff;
+    display: block;
+    width: 45px;
+    height: 48px;
+    border: 1px solid rgba(157, 193, 214, 0.1);
+    background-color: #81b3d2;
+    fill: #ffffff;
 }
 
 .social-item a:hover {
@@ -910,7 +910,7 @@ a {
 }
 
 .checkbox-item {
-   margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .checkbox-item label {
@@ -924,23 +924,23 @@ a {
 }
 
 .checkbox-field + label::before {
-  content: "";
-  position: absolute;
-  background-image: url("../img/src/checkbox-off.svg");
-  background-repeat: no-repeat;
-  left: -40px;
-  width: 27px;
-  height: 23px;
+    content: "";
+    position: absolute;
+    background-image: url("../img/src/checkbox-off.svg");
+    background-repeat: no-repeat;
+    left: -40px;
+    width: 27px;
+    height: 23px;
 }
 
 .checkbox-field:checked + label::before {
     content: "";
-  position: absolute;
-  background-image: url("../img/src/checkbox-on.svg");
-  background-repeat: no-repeat;
-  left: -40px;
-  width: 27px;
-  height: 23px;
+    position: absolute;
+    background-image: url("../img/src/checkbox-on.svg");
+    background-repeat: no-repeat;
+    left: -40px;
+    width: 27px;
+    height: 23px;
 }
 
 .checkbox-header {
