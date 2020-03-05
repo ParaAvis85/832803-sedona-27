@@ -662,6 +662,7 @@ a {
     height: 3px;
     background-color: #a9a9a9;
     top: 16px;
+    left: 16px;
 }
 
 .btn-minus:hover::before {
@@ -773,7 +774,7 @@ a {
   width: 45px;
   height: 48px;
   border: 1px solid rgba(157, 193, 214, 0.1);
-  background-color: #5496bd;
+  background-color: #81b3d2;
   fill: #ffffff;
 }
 
@@ -1062,6 +1063,7 @@ a {
     cursor: pointer;
     background-color: transparent;
     border: none;
+    padding: 0;
   }
   
   .range-toggle:hover {
@@ -1075,7 +1077,7 @@ a {
   }
   
   .range-toggle-max {
-    left: 77%;
+    left: 79%;
   }
   
   .btn-transparent {
