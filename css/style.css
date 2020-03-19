@@ -1193,6 +1193,11 @@ a
             user-select: none;
 }
 
+.checkbox-field:focus + label {
+  outline:  2px solid #81b3d2; 
+    
+}
+
 .checkbox-field + label::before
 {
     position: absolute;
@@ -1220,6 +1225,36 @@ a
     background-image: url('../img/src/checkbox-on.svg');
     background-repeat: no-repeat;
 }
+
+.checkbox-field:disabled + label::before
+{
+    position: absolute;
+    left: -40px;
+
+    width: 27px;
+    height: 23px;
+
+    content: '';
+
+    background-image: url('../img/src/checkbox-off-disabled.svg');
+    background-repeat: no-repeat;
+}
+
+.checkbox-field:checked:disabled + label::before
+{
+    position: absolute;
+    left: -40px;
+
+    width: 27px;
+    height: 23px;
+
+    content: '';
+
+    background-image: url('../img/src/checkbox-on-disabled.svg');
+    background-repeat: no-repeat;
+}
+
+
 
 .checkbox-header
 {
