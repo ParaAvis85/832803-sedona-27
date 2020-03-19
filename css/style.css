@@ -256,6 +256,7 @@ a
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
         flex-direction: row;
 
     background-color: #eee;
@@ -435,6 +436,7 @@ a
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
 
     width: 1200px;
     margin: 0;
@@ -1458,8 +1460,9 @@ a
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
 
-    width: 320px;
+    width: 720px;
     margin: 0;
     margin-right: auto;
     padding-left: 40px;
