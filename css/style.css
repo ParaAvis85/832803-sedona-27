@@ -569,6 +569,7 @@ a
 
 .feedback-section
 {
+    position: relative;
     background-color: #fff;
 }
 
@@ -582,6 +583,7 @@ a
 .modal-content
 {
     position: relative;
+    z-index: 1;
 }
 
 .modal-form
@@ -639,9 +641,18 @@ a
 
 .map
 {
+    position: relative;
     border: 0;
+    z-index: 1;
 }
 
+
+.map-reserve {
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+    
+}
 .modal-content
 {
     background-color: #fff;
