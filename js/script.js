@@ -32,17 +32,17 @@ form.addEventListener("submit", function (evt) {
       form.classList.add("popup-error");
      if (!departure.value) {
          departure.focus();
-         if (!entry.value);
-             entry.focus();
+         if (!arrival.value);
+             arrival.focus();
          }   
      } else if (!adult.value) {
          adult.focus();
      } else child.focus();
  });
 
-window.addEventListenert("keydown", function(evt) {
+window.addEventListener("keydown", function(evt) {
      if (evt.keyCode === 27) {
-    
+        evt.preventDefault();
          if (form.classList.contains ("popup-show")) {
              form.classlist.add ("popup-show");
              form.classList.remove ("popup-error");

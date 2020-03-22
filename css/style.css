@@ -627,18 +627,11 @@ a
     z-index: 1;
 }
 
-.popup-show  {
-    display: block;
 
-    animation: bounce 0.6s;
-}
-
-.popup-error {
-    animation: shake 0.6s;
-  }
 
 .modal-form
 {
+    display: block;
     position: absolute;
     bottom: 204px;
     left: 50%;
@@ -657,11 +650,26 @@ a
     background-color: #fff;
     -webkit-box-shadow: 0 7px 15px 0 rgba(0, 1, 1, .15);
             box-shadow: 0 7px 15px 0 rgba(0, 1, 1, .15);
-
+            
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
 }
+
+.popup-hide {
+    display: none;
+}
+
+.popup-show  {
+    display: block;
+
+    animation: bounce 0.6s;
+}
+
+.popup-error {
+    animation: shake 0.6s;
+  }
+
 
 .popup-btn
 {
