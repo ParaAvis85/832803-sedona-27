@@ -27,13 +27,13 @@ button.addEventListener("click", function(evt) {
 form.addEventListener("submit", function (evt) {
  if (!arrival.value || !departure.value || !adult.value || !child.value) {
      evt.preventDefault();
-     form.classList.remove("popup-error");
-     form.offsetWidth = form.offsetWidth;
-      form.classList.add("popup-error");
-     if (!departure.value) {
-         departure.focus();
-         if (!arrival.value);
-             arrival.focus();
+form.classList.remove("popup-error");
+form.offsetWidth = form.offsetWidth;
+form.classList.add("popup-error");
+ if (!departure.value) {
+      departure.focus();
+ if (!arrival.value);
+     arrival.focus();
          }   
      } else if (!adult.value) {
          adult.focus();
